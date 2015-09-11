@@ -3,6 +3,8 @@
 <%= link_to 'new', new_user_path %><br>
 
 Your IP address is: <%= @result.ip %><br>
+Your lat is: <%= @result.latitude %><br>
+Your lon is: <%= @result.longitude %><br>
 <!-- 
 http://freegeoip.net/{format}/{ip_or_hostname} -->
 <%= Geocoder::Result %>
