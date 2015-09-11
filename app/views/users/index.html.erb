@@ -1,8 +1,8 @@
 <h1>Users#index</h1>
 
-<%= link_to 'new', new_user_path %>
+<%= link_to 'new', new_user_path %><br>
 
-<%= @result.ip %>
+Your IP address is: <%= @result.ip %><br>
 <!-- 
 http://freegeoip.net/{format}/{ip_or_hostname} -->
 <%= Geocoder::Result %>
