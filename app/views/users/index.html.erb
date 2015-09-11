@@ -10,7 +10,7 @@ Your address is: <%= @result.address %><br>
 <%= @result.postal_code %><br>
 <br>
 
-
+<%= image_tag "http://maps.google.com/maps/api/staticmap?size=450x300&sensor=false&zoom=16&markers=#{@result.latitude}%2C#{@result.longitude}" %><br>
 
 
 These are all methods for gem: <br>
